@@ -1,0 +1,25 @@
+{
+    "name": "fourmultimedia/webair",
+    "description": "CMS WebAir",
+    "type": "library",
+    "require": {
+        "vinkla/hashids": "^9.1@dev",
+        "van-ons/laraberg": "dev-master",
+        "unisharp/laravel-filemanager": "dev-master",
+        "tightenco/ziggy": "^1.2",
+        "spatie/laravel-sitemap": "dev-master",
+        "inertiajs/inertia-laravel": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "4MultiMedia",
+            "email": "biuro@4multimedia.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fourmultimedia\\Webair\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
